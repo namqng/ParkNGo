@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/settingLbl"
+            android:text="@string/startup"
+            android:id="@+id/txtVfts" />
+
+        <RadioGroup
+            style="@style/radiobtn"
+            android:orientation="vertical"
+            android:id="@+id/rgStartup">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cache"
+                android:id="@+id/rbR"
+                android:checked="true" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bm"
+                android:id="@+id/rbB"
+                android:checked="false" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/settingLbl"
+            android:text="@string/unit"
+            android:id="@+id/txtVUnit" />
+
+        <RadioGroup
+            style="@style/radiobtn"
+            android:orientation="horizontal"
+            android:id="@+id/rgUnit">
+
+            <RadioButton
+                style="@style/radiobtn"
+                android:text="@string/km"
+                android:id="@+id/rbkm"
+                android:checked="true" />
+
+            <RadioButton
+                style="@style/radiobtn"
+                android:text="@string/mile"
+                android:id="@+id/rbm"
+                android:checked="false" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mz"
+        android:id="@+id/txtVmzr"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar"
+        android:max="30"
+        android:indeterminate="false"
+        android:progress="10" />
+
+    <Switch
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/swp"
+        android:id="@+id/swbtn"
+        android:layout_gravity="center_horizontal"
+        android:enabled="false"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp" />
+
+    <LinearLayout
+        style="@style/centerLayout"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/fragDetailsBtn"
+            android:text="@string/btnclrc"
+            android:id="@+id/btnClrCache"
+            android:layout_weight="0.5"/>
+
+        <Button
+            style="@style/fragDetailsBtn"
+            android:text="@string/btnclrbm"
+            android:id="@+id/btnClrBm"
+            android:layout_weight="0.5"/>
+
+    </LinearLayout>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnabt"
+        android:id="@+id/btnAbout" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnCl"
+        android:id="@+id/btnClose" />
+
+</LinearLayout>

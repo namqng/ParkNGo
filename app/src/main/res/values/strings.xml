@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ParkNGo</string>
+    <string name="search_hint">Type your location</string>
+    <string name="action_settings">Settings</string>
+    <string name="recent">Recents</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="addrLbl">Address</string>
+    <string name="btnBm">Bookmark</string>
+    <string name="btnM">Map</string>
+    <string name="btnS">Share</string>
+    <string name="btnB">Book a slot</string>
+    <string name="btnF">Follow up</string>
+    <string name="btnP">Check price</string>
+    <string name="txtP">Phone</string>
+    <string name="txtT">Operation time</string>
+    <string name="txtW">Website</string>
+    <string name="ok">OK</string>
+    <string name="startup">Startup</string>
+    <string name="cache">Cache (default)</string>
+    <string name="bm">Bookmarks</string>
+    <string name="unit">Unit</string>
+    <string name="km">km</string>
+    <string name="mile">mile</string>
+    <string name="mz">Map zoom ratio</string>
+    <string name="swp">Show price (premium feature)</string>
+    <string name="btnclrc">Clear cache</string>
+    <string name="btnclrbm">Clear bookmarks</string>
+    <string name="btnabt">About</string>
+    <string name="btnCl">Close</string>
+
+</resources>

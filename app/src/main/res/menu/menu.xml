@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Main" >
+
+    <item android:id="@+id/action_search"
+        android:icon="@drawable/abc_ic_search"
+        android:title="@string/abc_searchview_description_search"
+        android:showAsAction="ifRoom"
+        android:actionViewClass="android.widget.SearchView"
+        tools:ignore="AppCompatResource" />
+    <item android:id="@+id/action_nearby"
+        android:icon="@drawable/ic_gps"
+        android:title="@string/abc_searchview_description_search"
+        android:showAsAction="always"
+        tools:ignore="AppCompatResource" />
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        tools:ignore="AppCompatResource" />
+
+</menu>

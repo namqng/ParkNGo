@@ -1,0 +1,41 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="content">
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:fontFamily">Courier</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="label" parent="@android:style/TextAppearance.Medium">
+        <item name="android:background">#ffcdffdd</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="fragDetailsBtn" parent="@android:style/Widget.Button.Small">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+    <style name="centerLayout">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="settingLbl" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">0.5</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+    <style name="radiobtn" parent="settingLbl">
+        <item name="android:layout_gravity">center</item>
+
+    </style>
+</resources>
